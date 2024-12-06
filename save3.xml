@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<saveData>
+    <achievements>
+        <description>Draw a Card</description>
+        <title>Hit me Baby One More Time</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Stand in a Game</description>
+        <title>I'm Good, Thanks</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Get an Ace in your Hand</description>
+        <title>Ace Up My Sleeve</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Lose a Game</description>
+        <title>Dealer’s Delight</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win a Game</description>
+        <title>Blackjack Boss</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win 5 games in a row</description>
+        <title>Never tell me the odds</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Use an item to win a game</description>
+        <title>Fix the odds in your favor</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win a game on hard mode</description>
+        <title>Battle of wits</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win a game after betting everything you have</description>
+        <title>Putting it all on the line</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win 50 games total</description>
+        <title>Champion gambler</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Lose 5 games in a row</description>
+        <title>6th time's the charm</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Use every item type</description>
+        <title>Master manipulator</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win a game with a score less than 17</description>
+        <title>Risky play</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Have 100,000 money at one time</description>
+        <title>Big winner</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <achievements>
+        <description>Win a game with 21</description>
+        <title>It’s the name of the game!</title>
+        <unlocked>false</unlocked>
+    </achievements>
+    <beingUsed>false</beingUsed>
+    <diffSelected>17</diffSelected>
+    <hasBeenUsed>false</hasBeenUsed>
+    <savedMoney>100</savedMoney>
+    <tableSkin>Color.GREEN</tableSkin>
+    <winCount>0</winCount>
+</saveData>

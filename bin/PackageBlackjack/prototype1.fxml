@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Text?>
+
+<VBox prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PackageBlackjack.BlackjackController">
+  <children>
+    <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="613.0" prefWidth="824.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Pane fx:id="backgroundColorPane" layoutX="-71.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="872.0" style="-fx-background-color: green;">
+               <children>
+                  <Label fx:id="gameTitleText" layoutX="409.0" layoutY="199.0" text="Blackjack Remastered" textFill="WHITE" />
+                  <Button fx:id="startButton" layoutX="424.0" layoutY="229.0" mnemonicParsing="false" onAction="#startButtonPressed" prefHeight="25.0" prefWidth="84.0" text="START" />
+                  <HBox fx:id="playerVisualDeck" layoutX="71.0" layoutY="445.0" prefHeight="100.0" prefWidth="200.0" />
+                  <HBox fx:id="dealerVisualDeck" layoutX="71.0" layoutY="35.0" prefHeight="100.0" prefWidth="200.0" />
+                  <Label layoutX="780.0" layoutY="45.0" text="Money: " textFill="WHITE" />
+                  <Label fx:id="moneyDisplay" layoutX="834.0" layoutY="46.0" text="0" textFill="WHITE" />
+                  <TextField fx:id="betTextField" layoutX="616.0" layoutY="414.0" promptText="Insert bet amount here:" visible="false" />
+                  <Button fx:id="betEnter" layoutX="665.0" layoutY="452.0" mnemonicParsing="false" onAction="#betEnterPressed" text="Bet" visible="false" />
+                  <Button fx:id="backToMenuButton" layoutX="423.0" layoutY="288.0" mnemonicParsing="false" onAction="#backToMenuButtonPressed" text="MAIN MENU" />
+                  <ListView fx:id="powerUpsListView" layoutX="668.0" layoutY="159.0" prefHeight="309.0" prefWidth="200.0" visible="false" />
+                  <Button fx:id="powerUpsButton" layoutX="777.0" layoutY="73.0" mnemonicParsing="false" onAction="#powerUpsButtonPressed" text="Powerups" visible="false" />
+                  <Label layoutX="96.0" layoutY="182.0" text="Total:" textFill="WHITE" />
+               </children></Pane>
+            <Label fx:id="playerTotal" layoutX="66.0" layoutY="336.0" textFill="WHITE" />
+            <Label fx:id="winTotalCounter" layoutX="703.0" layoutY="19.0" text="Win Total:" textFill="WHITE" />
+            <Label layoutX="24.0" layoutY="337.0" text="Total:" textFill="WHITE" />
+            <Pane layoutX="288.0" layoutY="326.0" prefHeight="120.0" prefWidth="207.0">
+               <children>
+                  <Button fx:id="giveUpButton" layoutX="74.0" layoutY="72.0" mnemonicParsing="false" onAction="#giveUpButtonPressed" text="Give Up" visible="false" />
+                  <Button fx:id="hitButton" layoutX="45.0" layoutY="40.0" mnemonicParsing="false" onAction="#hitButtonPressed" text="Hit" visible="false" />
+                  <Button fx:id="standButton" layoutX="125.0" layoutY="40.0" mnemonicParsing="false" onAction="#standButtonPressed" text="Stand" visible="false" />
+               </children>
+            </Pane>
+            <Label fx:id="dealerTotal" layoutX="63.0" layoutY="182.0" text="?" textFill="WHITE" />
+            <Text fx:id="cardInfoDisplay" fill="WHITE" layoutX="380.0" layoutY="401.0" strokeType="OUTSIDE" strokeWidth="0.0" x="-61.0" y="42.0" />
+            <Label fx:id="winTotal" layoutX="763.0" layoutY="19.0" text="0" textFill="WHITE" />
+         </children>
+    </AnchorPane>
+  </children>
+</VBox>
